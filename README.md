@@ -23,7 +23,7 @@
 
 <br>
 
-## [2주차 강의&nbsp;-&nbsp;변수와 자료형]()
+## [2주차 강의&nbsp;-&nbsp;변수와 자료형](https://github.com/baek-study/wed_py25/blob/main/source/week2_mju.ipynb)
 
 ### [변수(variable)]()
 <ul>
@@ -36,7 +36,7 @@
 </ul>
 
 
-### [자료형(Data Type)](https://github.com/baek-study/python_mon/blob/main/source/week2_mju_mon.ipynb)
+### [자료형(Data Type)](https://github.com/baek-study/wed_py25/blob/main/source/week2_mju.ipynb)
 <ul>
   <li> 정수(123), 실수(3.14, 3.14e12) </li>
   <li>  문자열("hi", 'hi'), 논리(True,False) </li>
@@ -44,7 +44,7 @@
   <li>  정수로 변환 함수 : int("100")   </li>
 </ul>
 
-### [표준 입력함수 input()]()
+### [표준 입력함수 input()](https://github.com/baek-study/wed_py25/blob/main/source/week2_mju.ipynb)
 <ul>
    <li>키보드를 통해 입력한 값을 '문자열'로 반환</li>
     <li> msg = input('안내메시지')&ensp;#문자열로 반환</li>
@@ -52,7 +52,7 @@
     <li> fage = float(msg)&ensp;#실수변환</li>
 </ul>
 
-### [표준출력함수 print()]()
+### [표준출력함수 print()](https://github.com/baek-study/wed_py25/blob/main/source/week2_mju.ipynb)
 <ul>
     <li> 문자열 출력 : print('hello') </li>
     <li> 다양한자료형 : print(1004);print(3.14);</li>
