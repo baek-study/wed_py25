@@ -20,8 +20,10 @@
 
 ### [자료형(Data Type)](https://github.com/baek-study/wed_py25/blob/main/source/week2_mju.ipynb)
 <ul>
-  <li> 정수(123), 실수(3.14, 3.14e12) </li>
-  <li>  문자열("hi", 'hi'), 논리(True,False) </li>
+  <li> 정수형(123) </li>
+  <li> 실수형(3.14, 3.14e12) </li>
+  <li>  문자열("hi", 'hi') </li>
+  <li>  논리형(True,False) </li>
   <li>  자료형 확인 함수 : type(1234) </li>
   <li>  정수로 변환 함수 : int("100")   </li>
 </ul>
