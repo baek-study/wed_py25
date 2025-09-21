@@ -99,7 +99,7 @@
 <br>
 
 
-## [3주차 강의&nbsp;-&nbsp; 연산자]()
+## [3주차 강의&nbsp;-&nbsp; 연산자](https://github.com/baek-study/wed_py25/blob/main/source/week3_mju.ipynb)
 ### [산술 연산자]()
 <ul>
   <li> + - * / (사칙연산) <br> 
@@ -109,7 +109,7 @@
   - 나머지&ensp; % &ensp; ex) 5%3 = 2</li>
 </ul>
 
-### [할당/복합 연산자]()
+### [할당/복합 연산자](https://github.com/baek-study/wed_py25/blob/main/source/week3_mju.ipynb)
 <ul>
   <li> x = 10 # 왼쪽 변수공간에 오른쪽 값 할당 </li>
   <li>다중 할당 : x=y=z=1 <br>
@@ -121,7 +121,7 @@
   </li>
 </ul>
 
-### [관계 연산자]()
+### [관계 연산자](https://github.com/baek-study/wed_py25/blob/main/source/week3_mju.ipynb)
 <ul>
   <li> == != (동등)  <br>
   - ==(같다), !=(같지않다)</li>
@@ -129,7 +129,7 @@
   - >=, <=에서 =가 항상 뒤 </li>
 </ul>
 
-### [연산자 우선순위]()
+### [연산자 우선순위](https://github.com/baek-study/wed_py25/blob/main/source/week3_mju.ipynb)
 <ul>
   <li> 산술 > 관계 > 논리 > 할당/대입 <br>
   - (&ensp;) 는 우선순위가 가장 높음</li>
