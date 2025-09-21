@@ -49,10 +49,10 @@
 ## [1주차 강의 &nbsp;-&nbsp;파이썬 소개]()
 <ul>
   <li>
-    파이썬 소개 - 인터프리터(Interpreter) 언어, 객체지향 언어     
+    특징 - 인터프리터(Interpreter) 언어, 객체지향 언어     
   </li>
   <li>
-    파이썬 통합 개발 환경 - IDLE, Colab, Jupyter Notebook 등  <br>
+    통합 개발 환경 - IDLE, Colab, Jupyter Notebook 등  <br>
   </li>
 </ul>
 
