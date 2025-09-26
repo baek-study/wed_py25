@@ -3,9 +3,9 @@
 
 <hr size = "10px", width ="500px">
 
-## [4주차 강의&nbsp;-&nbsp;문자열]()
+## [4주차 강의&nbsp;-&nbsp;문자열](https://github.com/baek-study/wed_py25/blob/main/source/week4_mju.ipynb)
 
-### [문자열 기본구조]()
+### [문자열 기본구조](https://github.com/baek-study/wed_py25/blob/main/source/week4_mju.ipynb)
 <ul>
   <li> 생성 : msg = '안녕하세요' <br>
   - 인덱스: 첫문자에서 0부터 시작 <br>
@@ -16,7 +16,7 @@
     - 시작부터 (끝-1)까지 부분문자열 </li>
 </ul>
 
-### [문자열 연산/함수]()
+### [문자열 연산/함수](https://github.com/baek-study/wed_py25/blob/main/source/week4_mju.ipynb)
 <ul>
   <li> 연산 (+, *, in, == )<br>
    - 'hi'+'mju' : 문자열 결합<br>
@@ -32,7 +32,7 @@
 </ul>
 
 
-### [서식 : f-문자열]()
+### [서식 : f-문자열](https://github.com/baek-study/wed_py25/blob/main/source/week4_mju.ipynb)
 <ul>
   <li> f'..{표현식}..' # 중괄호 사용  <br>
     ex) print(f'hi. {name}, age {25}') </li>
