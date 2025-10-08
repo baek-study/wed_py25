@@ -3,48 +3,45 @@
 
 <hr size = "10px", width ="500px">
 
-## [4주차 강의&nbsp;-&nbsp;문자열](https://github.com/baek-study/wed_py25/blob/main/source/week4_mju.ipynb)
+## [6주차 강의&nbsp;-&nbsp;조건문]()
 
-### [문자열 기본구조](https://github.com/baek-study/wed_py25/blob/main/source/week4_mju.ipynb)
+### [논리 연산자]()
 <ul>
-  <li> 생성 : msg = '안녕하세요' <br>
-  - 인덱스: 첫문자에서 0부터 시작 <br>
-  - 음의 인덱스 : 끝 문자에서 -1로 시작 </li>
-  <li> 인덱싱 [순번]: msg[0]&ensp; #'안' <br>
-    - 특정 순번의 개별 문자 </li>
-  <li> 슬라이싱 [시작:끝]: msg[2:4] &ensp; #'하세'<br> 
-    - 시작부터 (끝-1)까지 부분문자열 </li>
+  <li>A and B : 둘 다 참이어야 참  </li>
+  <li>A or B : 둘 중 하나만 참이어도 참  </li>
+  <li>not A : 참이면 거짓, 거짓이면 참  </li>
 </ul>
 
-### [문자열 연산/함수](https://github.com/baek-study/wed_py25/blob/main/source/week4_mju.ipynb)
-<ul>
-  <li> 연산 (+, *, in, == )<br>
-   - 'hi'+'mju' : 문자열 결합<br>
-   - 'mju'*3 : 문자열 반복<br>
-   - 'm' in 'mju' : 멤버쉽<br>
-    - 'hi' =='mju' : 문자열 비교<br>
-     </li> 
-  <li> len(msg) : 문자열 길이 함수 </li>  
-  <li> msg.split() : 문자열 분리 메소드 </li>  
-  <li> msg.find('안') : 문자열 발견 위치 </li>  
-  <li> msg.count('안') : 문자열 발견 횟수</li>  
+### [제어문]()
+<ul>    
+  <li>제어 구조 : 순차(직진), 조건(갈림길), 반복(로터리)</li>
+  <li>파이썬 제어 포맷 : 헤더 + 스위트<br>
+    제어키워드 제어조건 <b>:(콜론)</b>  &ensp;&nbsp; #헤더<br>
+    &ensp;&ensp;&ensp;&ensp;들여쓰기된_문장  &ensp;&nbsp;  # 스위트 
+  </li>
+</ul>
 
+### [단순 if(if~ - 선택 명령 1개)]()
+<ul>    
+  <li><b>if</b> score >= 60 <b>:</b>&ensp;<br>
+    &ensp;&nbsp;  print('pass') <br>
+  </li>
 </ul>
 
 
-### [서식 : f-문자열](https://github.com/baek-study/wed_py25/blob/main/source/week4_mju.ipynb)
-<ul>
-  <li> f'..{표현식}..' # 중괄호 사용  <br>
-    ex) print(f'hi. {name}, age {25}') </li>
-  <li> 형식지정: 정수 d, 실수 f, 문자 s </li>
-  <li> 자릿수: {25:5d} &ensp; #다섯자리 확보 </li>
-  <li> 정밀도: {3.145:.2f} &ensp; #소수점 몇자리 <br>
-    ex) print(f'hi.{name:10s}, age {25:5d}, {PI:.2f}’)
-  </li>  
+### [선택 if(if~else - 선택 명령 2개)]()
+<ul>    
+  <li><b>if</b> score >= 60 <b>:</b>&ensp;<br>
+    &ensp;&nbsp;  print('pass') <br>
+    <b>else:</b>&ensp; <br>
+    &ensp;&nbsp;  print('fail')
+  </li>
 </ul>
+
 <br>
 
 <br>
+
 
 ## [1주차 강의 &nbsp;-&nbsp;파이썬 소개]()
 <ul>
@@ -136,3 +133,45 @@
 </ul>
 
 <br>
+
+## [4주차 강의&nbsp;-&nbsp;문자열](https://github.com/baek-study/wed_py25/blob/main/source/week4_mju.ipynb)
+
+### [문자열 기본구조](https://github.com/baek-study/wed_py25/blob/main/source/week4_mju.ipynb)
+<ul>
+  <li> 생성 : msg = '안녕하세요' <br>
+  - 인덱스: 첫문자에서 0부터 시작 <br>
+  - 음의 인덱스 : 끝 문자에서 -1로 시작 </li>
+  <li> 인덱싱 [순번]: msg[0]&ensp; #'안' <br>
+    - 특정 순번의 개별 문자 </li>
+  <li> 슬라이싱 [시작:끝]: msg[2:4] &ensp; #'하세'<br> 
+    - 시작부터 (끝-1)까지 부분문자열 </li>
+</ul>
+
+### [문자열 연산/함수](https://github.com/baek-study/wed_py25/blob/main/source/week4_mju.ipynb)
+<ul>
+  <li> 연산 (+, *, in, == )<br>
+   - 'hi'+'mju' : 문자열 결합<br>
+   - 'mju'*3 : 문자열 반복<br>
+   - 'm' in 'mju' : 멤버쉽<br>
+    - 'hi' =='mju' : 문자열 비교<br>
+     </li> 
+  <li> len(msg) : 문자열 길이 함수 </li>  
+  <li> msg.split() : 문자열 분리 메소드 </li>  
+  <li> msg.find('안') : 문자열 발견 위치 </li>  
+  <li> msg.count('안') : 문자열 발견 횟수</li>  
+
+</ul>
+
+
+### [서식 : f-문자열](https://github.com/baek-study/wed_py25/blob/main/source/week4_mju.ipynb)
+<ul>
+  <li> f'..{표현식}..' # 중괄호 사용  <br>
+    ex) print(f'hi. {name}, age {25}') </li>
+  <li> 형식지정: 정수 d, 실수 f, 문자 s </li>
+  <li> 자릿수: {25:5d} &ensp; #다섯자리 확보 </li>
+  <li> 정밀도: {3.145:.2f} &ensp; #소수점 몇자리 <br>
+    ex) print(f'hi.{name:10s}, age {25:5d}, {PI:.2f}’)
+  </li>  
+</ul>
+<br>
+
