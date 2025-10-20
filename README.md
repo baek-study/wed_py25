@@ -3,9 +3,9 @@
 
 <hr size = "10px", width ="500px">
 
-## [7주차 강의&nbsp;-&nbsp;다중조건문]()
+## [7주차 강의&nbsp;-&nbsp;다중조건문](https://github.com/baek-study/wed_py25/blob/main/source/week7_mju.ipynb)
 
-### [중첩 if 문 - if 안에 if]()  
+### [중첩 if 문 - if 안에 if](https://github.com/baek-study/wed_py25/blob/main/source/week7_mju.ipynb)  
 <ul>
   <li><b>if</b> score >= 60<b>:</b>&ensp;  <br>
     &ensp;&ensp;&nbsp;print('pass') <br>
@@ -16,7 +16,7 @@
   </li>
 </ul>
 
-### [연속 if 문: if ~ elif ~ else]()
+### [연속 if 문: if ~ elif ~ else](https://github.com/baek-study/wed_py25/blob/main/source/week7_mju.ipynb)
 <ul>
   <li><b>if</b> score >= 90<b>:</b>&ensp;  <br>
     &ensp;&nbsp;print('A') <br>
@@ -164,9 +164,9 @@
 </ul>
 <br>
 
-## [5주차 강의&nbsp;-&nbsp;리스트]()
+## [5주차 강의&nbsp;-&nbsp;리스트](https://github.com/baek-study/wed_py25/blob/main/source/week5_mju.ipynb)
 
-### [리스트 기본 구조]()
+### [리스트 기본 구조](https://github.com/baek-study/wed_py25/blob/main/source/week5_mju.ipynb)
 <ul>
 <li>생성 : temps=[28, 31, 33, 35, 27]  </li>
 <li>인덱싱: temps[3], temps[-1]  </li>
@@ -177,7 +177,7 @@
 <li>복사 : list2 = list(temps) &ensp;# temps[:] 새로운 리스트 </li>  
 </ul>
 
-### [리스트 연산&메소드]()
+### [리스트 연산&메소드](https://github.com/baek-study/wed_py25/blob/main/source/week5_mju.ipynb)
 <ul>
  <li> 연산 (+, *, in, == )<br>
    - 결합 : [1,2]+[3,4,5] <br>
@@ -192,7 +192,7 @@
   <li> 검색 : temps.index(31) </li
 </ul>
 
-### [2차원 리스트]()
+### [2차원 리스트](https://github.com/baek-study/wed_py25/blob/main/source/week5_mju.ipynb)
 <ul> 
 <li>1차원 리스트를 요소로 가지는 리스트</li> 
 <li>s = [ <br>
@@ -204,16 +204,16 @@
 
 <br>
 
-## [6주차 강의&nbsp;-&nbsp;조건문]()
+## [6주차 강의&nbsp;-&nbsp;조건문](https://github.com/baek-study/wed_py25/blob/main/source/week6_mju.ipynb)
 
-### [논리 연산자]()
+### [논리 연산자](https://github.com/baek-study/wed_py25/blob/main/source/week6_mju.ipynb)
 <ul>
   <li>A and B : 둘 다 참이어야 참  </li>
   <li>A or B : 둘 중 하나만 참이어도 참  </li>
   <li>not A : 참이면 거짓, 거짓이면 참  </li>
 </ul>
 
-### [제어문]()
+### [제어문](https://github.com/baek-study/wed_py25/blob/main/source/week6_mju.ipynb)
 <ul>    
   <li>제어 구조 : 순차(직진), 조건(갈림길), 반복(로터리)</li>
   <li>파이썬 제어 포맷 : 헤더 + 스위트<br>
@@ -222,7 +222,7 @@
   </li>
 </ul>
 
-### [단순 if(if~ - 선택 명령 1개)]()
+### [단순 if(if~ - 선택 명령 1개)](https://github.com/baek-study/wed_py25/blob/main/source/week6_mju.ipynb)
 <ul>    
   <li><b>if</b> score >= 60 <b>:</b>&ensp;<br>
     &ensp;&nbsp;  print('pass') <br>
@@ -230,7 +230,7 @@
 </ul>
 
 
-### [선택 if(if~else - 선택 명령 2개)]()
+### [선택 if(if~else - 선택 명령 2개)](https://github.com/baek-study/wed_py25/blob/main/source/week6_mju.ipynb)
 <ul>    
   <li><b>if</b> score >= 60 <b>:</b>&ensp;<br>
     &ensp;&nbsp;  print('pass') <br>
