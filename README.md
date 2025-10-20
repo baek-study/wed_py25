@@ -3,9 +3,32 @@
 
 <hr size = "10px", width ="500px">
 
+## [7주차 강의&nbsp;-&nbsp;다중조건문]()
+
+### [중첩 if 문 - if 안에 if]()  
+<ul>
+  <li><b>if</b> score >= 60<b>:</b>&ensp;  <br>
+    &ensp;&ensp;&nbsp;print('pass') <br>
+    &ensp;&ensp;&nbsp;<b>if</b> score >= 90<b>:</b>&ensp; <br>
+    &ensp;&ensp;&nbsp;&ensp;&ensp;print('장학금') <br>
+    <b>else :</b>&ensp; <br>
+    &ensp;&ensp;&nbsp;print('fail') <br>
+  </li>
+</ul>
+
+### [연속 if 문: if ~ elif ~ else]()
+<ul>
+  <li><b>if</b> score >= 90<b>:</b>&ensp;  <br>
+    &ensp;&nbsp;print('A') <br>
+    <b>elif</b> score >= 80<b>:</b>&ensp; <br>
+    &ensp;&nbsp;print('B') <br>
+    <b>else :</b>&ensp; <br>
+    &ensp;&nbsp;print('C') <br>
+  </li>
+</ul>
+  
 
 <br>
-
 <br>
 
 
