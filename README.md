@@ -3,40 +3,6 @@
 
 <hr size = "10px", width ="500px">
 
-## [6주차 강의&nbsp;-&nbsp;조건문]()
-
-### [논리 연산자]()
-<ul>
-  <li>A and B : 둘 다 참이어야 참  </li>
-  <li>A or B : 둘 중 하나만 참이어도 참  </li>
-  <li>not A : 참이면 거짓, 거짓이면 참  </li>
-</ul>
-
-### [제어문]()
-<ul>    
-  <li>제어 구조 : 순차(직진), 조건(갈림길), 반복(로터리)</li>
-  <li>파이썬 제어 포맷 : 헤더 + 스위트<br>
-    제어키워드 제어조건 <b>:(콜론)</b>  &ensp;&nbsp; #헤더<br>
-    &ensp;&ensp;&ensp;&ensp;들여쓰기된_문장  &ensp;&nbsp;  # 스위트 
-  </li>
-</ul>
-
-### [단순 if(if~ - 선택 명령 1개)]()
-<ul>    
-  <li><b>if</b> score >= 60 <b>:</b>&ensp;<br>
-    &ensp;&nbsp;  print('pass') <br>
-  </li>
-</ul>
-
-
-### [선택 if(if~else - 선택 명령 2개)]()
-<ul>    
-  <li><b>if</b> score >= 60 <b>:</b>&ensp;<br>
-    &ensp;&nbsp;  print('pass') <br>
-    <b>else:</b>&ensp; <br>
-    &ensp;&nbsp;  print('fail')
-  </li>
-</ul>
 
 <br>
 
@@ -173,5 +139,82 @@
     ex) print(f'hi.{name:10s}, age {25:5d}, {PI:.2f}’)
   </li>  
 </ul>
+<br>
+
+## [5주차 강의&nbsp;-&nbsp;리스트]()
+
+### [리스트 기본 구조]()
+<ul>
+<li>생성 : temps=[28, 31, 33, 35, 27]  </li>
+<li>인덱싱: temps[3], temps[-1]  </li>
+<li>슬라이싱: temps[2:5]  &ensp;#시작에서 끝-1 까지 </li>
+<li>수정1: temps[3] = 5 &ensp;# 인덱싱 이용한 수정 </li>  
+<li>수정2:  temps[2:5] = [1, 2] &ensp;# 슬라이딩 이용힌 수정 </li>    
+<li>단순할당 : list1 = temps &ensp;# 같은것 가리킴</li>  
+<li>복사 : list2 = list(temps) &ensp;# temps[:] 새로운 리스트 </li>  
+</ul>
+
+### [리스트 연산&메소드]()
+<ul>
+ <li> 연산 (+, *, in, == )<br>
+   - 결합 : [1,2]+[3,4,5] <br>
+   - 반복 : [1,2]*3 <br>
+   - 멤버쉽 1 in [1,2]  &ensp;# not in<br>
+   - 비교 : [1,2] ==[3,4,5]  &ensp;# != < > 등<br>
+     </li> 
+  <li> 추가 : temps.append(5)  </li>  
+  <li> 삽입 : temps.insert(1, 100)   </li>  
+  <li> 삭제 : temps.remove(100)   </li>  
+  <li> 삭제 : t = temps.pop(0)   </li>  
+  <li> 검색 : temps.index(31) </li
+</ul>
+
+### [2차원 리스트]()
+<ul> 
+<li>1차원 리스트를 요소로 가지는 리스트</li> 
+<li>s = [ <br>
+ &ensp; &ensp; [ 1, 2, 3, 4, 5],<br>
+ &ensp; &ensp; [ 6, 7, 8, 9, 10]<br>
+    ] </li>
+<li>s[1][2] &ensp;# 이름[행][열] - 8 </li>   
+</ul>
+
+<br>
+
+## [6주차 강의&nbsp;-&nbsp;조건문]()
+
+### [논리 연산자]()
+<ul>
+  <li>A and B : 둘 다 참이어야 참  </li>
+  <li>A or B : 둘 중 하나만 참이어도 참  </li>
+  <li>not A : 참이면 거짓, 거짓이면 참  </li>
+</ul>
+
+### [제어문]()
+<ul>    
+  <li>제어 구조 : 순차(직진), 조건(갈림길), 반복(로터리)</li>
+  <li>파이썬 제어 포맷 : 헤더 + 스위트<br>
+    제어키워드 제어조건 <b>:(콜론)</b>  &ensp;&nbsp; #헤더<br>
+    &ensp;&ensp;&ensp;&ensp;들여쓰기된_문장  &ensp;&nbsp;  # 스위트 
+  </li>
+</ul>
+
+### [단순 if(if~ - 선택 명령 1개)]()
+<ul>    
+  <li><b>if</b> score >= 60 <b>:</b>&ensp;<br>
+    &ensp;&nbsp;  print('pass') <br>
+  </li>
+</ul>
+
+
+### [선택 if(if~else - 선택 명령 2개)]()
+<ul>    
+  <li><b>if</b> score >= 60 <b>:</b>&ensp;<br>
+    &ensp;&nbsp;  print('pass') <br>
+    <b>else:</b>&ensp; <br>
+    &ensp;&nbsp;  print('fail')
+  </li>
+</ul>
+
 <br>
 
