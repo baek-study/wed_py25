@@ -30,7 +30,7 @@
   <li>조건 반복 2 : 조건이 만족되는 동안<br>
   pwd = ' ' &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;# 초기화<br>
   <b>while</b> pwd != 'mju' <b>:</b> # 조건 만족하는지? <br>
-  &ensp;&ensp;pwd=input() <br> 
+  &ensp;&ensp;pwd=input('password') <br> 
   </li>
 </ul>
   
