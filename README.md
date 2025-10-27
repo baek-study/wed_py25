@@ -4,9 +4,16 @@
 <hr size = "10px", width ="500px">
 
 ## [9주차 강의&nbsp;-&nbsp;반복문]()
+
+<ul>
+  <li> <b>제어키워드</b> 제어조건 <b>:</b>  &ensp;&nbsp; #헤더<br>
+    &ensp;&ensp;&ensp;&ensp;들여쓰기된_문장  &ensp;&nbsp;  # 스위트 
+  </li>
+</ul>
+
 ### [for 문 - 횟수 반복]()
 <ul>
-  <li><b>for</b> ch <b> in 군집(반복 가능한 객체)</b> <br>
+  <li><b>for</b> ch <b> in 군집(반복 가능한 객체) : </b> <br>
   &ensp;&ensp;문장</li>
   <li><b>for</b> i <b> in</b> [0,1,2,3,4]:&ensp;#리스트 객체<br>
   &ensp;&ensp;print(f'{i=}')</li>
