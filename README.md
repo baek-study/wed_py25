@@ -3,32 +3,40 @@
 
 <hr size = "10px", width ="500px">
 
-## [7주차 강의&nbsp;-&nbsp;다중조건문](https://github.com/baek-study/wed_py25/blob/main/source/week7_mju.ipynb)
-
-### [중첩 if 문 - if 안에 if](https://github.com/baek-study/wed_py25/blob/main/source/week7_mju.ipynb)  
+## [9주차 강의&nbsp;-&nbsp;반복문]()
+### [for 문 - 횟수 반복]()
 <ul>
-  <li><b>if</b> score >= 60<b>:</b>&ensp;  <br>
-    &ensp;&ensp;&nbsp;print('pass') <br>
-    &ensp;&ensp;&nbsp;<b>if</b> score >= 90<b>:</b>&ensp; <br>
-    &ensp;&ensp;&nbsp;&ensp;&ensp;print('장학금') <br>
-    <b>else :</b>&ensp; <br>
-    &ensp;&ensp;&nbsp;print('fail') <br>
-  </li>
+  <li><b>for</b> ch <b> in 군집(반복 가능한 객체)</b> <br>
+  &ensp;&ensp;문장</li>
+  <li><b>for</b> i <b> in</b> [0,1,2,3,4]:&ensp;#리스트 객체<br>
+  &ensp;&ensp;print(f'{i=}')</li>
+  <li><b>for</b> ch <b> in</b> 'hello':&ensp; # 문자열 객체<br>
+  &ensp;&ensp;print(f'{ch=}')</li>
+  <li><b>for</b> i <b> in</b> range(0,5,1):&ensp; #range 객체 <br>
+  &ensp;&ensp;print(f'{i=}')</li>
 </ul>
 
-### [연속 if 문: if ~ elif ~ else](https://github.com/baek-study/wed_py25/blob/main/source/week7_mju.ipynb)
+### [while 문 - 조건 반복]()
 <ul>
-  <li><b>if</b> score >= 90<b>:</b>&ensp;  <br>
-    &ensp;&nbsp;print('A') <br>
-    <b>elif</b> score >= 80<b>:</b>&ensp; <br>
-    &ensp;&nbsp;print('B') <br>
-    <b>else :</b>&ensp; <br>
-    &ensp;&nbsp;print('C') <br>
+  <li>조건 반복 1 : 초기, 반복조건(끝), 증감<br>
+  count = 0 # 초기값<br>
+  <b>while</b> count < 5 <b>:</b> # 반복조건(끝) <br>
+  &ensp;&ensp;count += 1 # 증가 <br> 
+  &ensp;&ensp;print(f'{count}회') <br> 
+  </li>
+  <li>조건 반복 2 : 조건이 만족되는 동안<br>
+  pwd = ' ' # 초기화<br>
+  <b>while</b> pwd != 'mju' <b>:</b> # 조건 만족하는지? <br>
+  &ensp;&ensp;pwd=input() <br> 
   </li>
 </ul>
   
 
+
+
 <br>
+
+
 <br>
 
 
@@ -239,5 +247,33 @@
   </li>
 </ul>
 
+<br>
+
+## [7주차 강의&nbsp;-&nbsp;다중조건문](https://github.com/baek-study/wed_py25/blob/main/source/week7_mju.ipynb)
+
+### [중첩 if 문 - if 안에 if](https://github.com/baek-study/wed_py25/blob/main/source/week7_mju.ipynb)  
+<ul>
+  <li><b>if</b> score >= 60<b>:</b>&ensp;  <br>
+    &ensp;&ensp;&nbsp;print('pass') <br>
+    &ensp;&ensp;&nbsp;<b>if</b> score >= 90<b>:</b>&ensp; <br>
+    &ensp;&ensp;&nbsp;&ensp;&ensp;print('장학금') <br>
+    <b>else :</b>&ensp; <br>
+    &ensp;&ensp;&nbsp;print('fail') <br>
+  </li>
+</ul>
+
+### [연속 if 문: if ~ elif ~ else](https://github.com/baek-study/wed_py25/blob/main/source/week7_mju.ipynb)
+<ul>
+  <li><b>if</b> score >= 90<b>:</b>&ensp;  <br>
+    &ensp;&nbsp;print('A') <br>
+    <b>elif</b> score >= 80<b>:</b>&ensp; <br>
+    &ensp;&nbsp;print('B') <br>
+    <b>else :</b>&ensp; <br>
+    &ensp;&nbsp;print('C') <br>
+  </li>
+</ul>
+  
+
+<br>
 <br>
 
