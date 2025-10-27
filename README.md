@@ -21,13 +21,13 @@
 ### [while 문 - 조건 반복]()
 <ul>
   <li>조건 반복 1 : start, 반복조건(끝), step<br>
-  count = 0 &ensp;&ensp;&ensp;&ensp;&ensp;# start<br>
+  count = 0 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;# start<br>
   <b>while</b> count < 5 <b>:</b> # 반복조건(끝) <br>
   &ensp;&ensp;count += 1 &ensp;&ensp; # step <br> 
   &ensp;&ensp;print(f'{count}회') <br> 
   </li>
   <li>조건 반복 2 : 조건이 만족되는 동안<br>
-  pwd = ' ' # 초기화<br>
+  pwd = ' ' &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;# 초기화<br>
   <b>while</b> pwd != 'mju' <b>:</b> # 조건 만족하는지? <br>
   &ensp;&ensp;pwd=input() <br> 
   </li>
