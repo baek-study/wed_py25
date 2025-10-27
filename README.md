@@ -14,8 +14,9 @@
   &ensp;&ensp;print(f'{ch=}')</li>
   <li><b>for</b> i <b> in</b> range(0,5,1):&ensp; #range 객체 <br>
   &ensp;&ensp;print(f'{i=}')</li>
-  <li> <b>range(start,stop,step)</b> &ensp; #start에서 (stop-1)까지 <br>
-  range(0, 5, 1)&ensp; # 0, 1, 2, 3, 4 </li>
+  <li> <b>range(start,stop,step)</b> &ensp;<br>
+  - start에서 (stop-1)까지 <br>
+  - range(0, 5, 1)&ensp; # 0, 1, 2, 3, 4 </li>
 </ul>
 
 ### [while 문 - 조건 반복]()
