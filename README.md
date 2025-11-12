@@ -3,48 +3,33 @@
 
 <hr size = "10px", width ="500px">
 
-## [9주차 강의&nbsp;-&nbsp;반복문]()
+## [11주차 강의&nbsp;-&nbsp;함수1]()
 
+### [함수 정의&함수 호출]()
 <ul>
-  <li> <b>제어키워드</b> 제어조건 <b>:</b>  &ensp;&nbsp; #헤더<br>
-    &ensp;&ensp;&ensp;&ensp;들여쓰기된_문장  &ensp;&nbsp;  # 스위트 
-  </li>
+<li>함수 정의 <br>
+  &nbsp; <b>def</b> get_area(radius) <b>:</b> <br>
+  &nbsp; &nbsp; area = radius*radius*3.14 <br>
+  &nbsp;&nbsp;  <b>return</b> area
+  <br>
+</li>  
+<li>함수 호출 <br>
+   &nbsp; result = get_area(10)
+   <br>
+</li>
 </ul>
 
-### [for 문 - 횟수 반복]()
+### [매개변수&반환값](https://github.com/baek-study/python_mon/blob/main/source/week10_mju_mon.ipynb)
 <ul>
-  <li><b>for</b> ch <b> in 군집(반복 가능한 객체) : </b> <br>
-  &ensp;&ensp;문장</li>
-  <li><b>for</b> i <b> in</b> [0,1,2,3,4]:&ensp;#리스트 객체<br>
-  &ensp;&ensp;print(f'{i=}')</li>
-  <li><b>for</b> ch <b> in</b> 'hello':&ensp; # 문자열 객체<br>
-  &ensp;&ensp;print(f'{ch=}')</li>
-  <li><b>for</b> i <b> in</b> range(0,5,1):&ensp; #range 객체 <br>
-  &ensp;&ensp;print(f'{i=}')</li>
-  <li> <b>range(start,stop,step)</b> &ensp;<br>
-  - start에서 (stop-1)까지 <br>
-  - range(0, 5, 1)&ensp; # 0, 1, 2, 3, 4 </li>
+  <li><b>매개변수:</b> 함수 정의시 값을 전달받는 변수  <br>
+  <b>인수:</b> 함수 호출시 실제로 전달되는 값    </li>
+  <li><b>반환값:</b>(함수 정의) 함수 결과로 돌려주는 값 <br> 
+  <b>결과변수:</b> 함수호출 후 결과대입   </li>
 </ul>
-
-### [while 문 - 조건 반복]()
-<ul>
-  <li>조건 반복 1 : start, 반복조건(끝), step<br>
-  count = 0 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;# start<br>
-  <b>while</b> count < 5 <b>:</b> # 반복조건(끝) <br>
-  &ensp;&ensp;count += 1 &ensp;&ensp; # step <br> 
-  &ensp;&ensp;print(f'{count}회') <br> 
-  </li>
-  <li>조건 반복 2 : 조건이 만족되는 동안<br>
-  pwd = ' ' &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;# 초기화<br>
-  <b>while</b> pwd != 'mju' <b>:</b> # 조건 만족하는지? <br>
-  &ensp;&ensp;pwd=input('password') <br> 
-  </li>
-</ul>
-  
-
-
 
 <br>
+
+
 
 
 <br>
@@ -283,6 +268,72 @@
   </li>
 </ul>
   
+<br>
+
+## [9주차 강의&nbsp;-&nbsp;반복문]()
+
+<ul>
+  <li> <b>제어키워드</b> 제어조건 <b>:</b>  &ensp;&nbsp; #헤더<br>
+    &ensp;&ensp;&ensp;&ensp;들여쓰기된_문장  &ensp;&nbsp;  # 스위트 
+  </li>
+</ul>
+
+### [for 문 - 횟수 반복]()
+<ul>
+  <li><b>for</b> ch <b> in 군집(반복 가능한 객체) : </b> <br>
+  &ensp;&ensp;문장</li>
+  <li><b>for</b> i <b> in</b> [0,1,2,3,4]:&ensp;#리스트 객체<br>
+  &ensp;&ensp;print(f'{i=}')</li>
+  <li><b>for</b> ch <b> in</b> 'hello':&ensp; # 문자열 객체<br>
+  &ensp;&ensp;print(f'{ch=}')</li>
+  <li><b>for</b> i <b> in</b> range(0,5,1):&ensp; #range 객체 <br>
+  &ensp;&ensp;print(f'{i=}')</li>
+  <li> <b>range(start,stop,step)</b> &ensp;<br>
+  - start에서 (stop-1)까지 <br>
+  - range(0, 5, 1)&ensp; # 0, 1, 2, 3, 4 </li>
+</ul>
+
+### [while 문 - 조건 반복]()
+<ul>
+  <li>조건 반복 1 : start, 반복조건(끝), step<br>
+  count = 0 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;# start<br>
+  <b>while</b> count < 5 <b>:</b> # 반복조건(끝) <br>
+  &ensp;&ensp;count += 1 &ensp;&ensp; # step <br> 
+  &ensp;&ensp;print(f'{count}회') <br> 
+  </li>
+  <li>조건 반복 2 : 조건이 만족되는 동안<br>
+  pwd = ' ' &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;# 초기화<br>
+  <b>while</b> pwd != 'mju' <b>:</b> # 조건 만족하는지? <br>
+  &ensp;&ensp;pwd=input('password') <br> 
+  </li>
+</ul>
+  
+<br>
+
+## [10주차 강의&nbsp;-&nbsp;반복문2]()
+
+### [중첩 for]()
+<ul>
+<li><b>for</b> i <b>in</b> range(1, 9)<b>:</b> <br>
+  &ensp;&ensp; <b>for</b> j <b>in</b> range(1, 9)<b>:</b><br>
+  &ensp;&ensp;&ensp;&ensp;print(f"{i}*{j}={i*j}")  # 구구단<br>  
+</li>
+</ul>
+
+### [무한 루프]()
+<ul>
+  <li> <b>while True :</b> #  무한 루프<br>
+  &nbsp; &nbsp; 문장들<br>
+  &nbsp; &nbsp; if pwd == 'mju':<br>
+   &nbsp; &nbsp;&nbsp; &nbsp; break # 무한 루프 탈출 
+</li>
+</ul>
+
+### [보조제어 break, continue]() 
+<ul>
+<li> break : 반복문 탈출 </li>
+<li>continue : 반복 다시 시작 </li>
+</ul>
 
 <br>
 <br>
