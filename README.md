@@ -3,9 +3,9 @@
 
 <hr size = "10px", width ="500px">
 
-## [11주차 강의&nbsp;-&nbsp;함수1]()
+## [11주차 강의&nbsp;-&nbsp;함수1](https://github.com/baek-study/wed_py25/blob/main/source/week11_mju.ipynb)
 
-### [함수 정의&함수 호출]()
+### [함수 정의&함수 호출](https://github.com/baek-study/wed_py25/blob/main/source/week11_mju.ipynb)
 <ul>
 <li>함수 정의 <br>
   &nbsp; <b>def</b> get_area(radius) <b>:</b> <br>
@@ -19,7 +19,7 @@
 </li>
 </ul>
 
-### [매개변수&반환값](https://github.com/baek-study/python_mon/blob/main/source/week10_mju_mon.ipynb)
+### [매개변수&반환값](https://github.com/baek-study/wed_py25/blob/main/source/week11_mju.ipynb)
 <ul>
   <li><b>매개변수:</b> 함수 정의시 값을 전달받는 변수  <br>
   <b>인수:</b> 함수 호출시 실제로 전달되는 값    </li>
@@ -270,7 +270,7 @@
   
 <br>
 
-## [9주차 강의&nbsp;-&nbsp;반복문]()
+## [9주차 강의&nbsp;-&nbsp;반복문](https://github.com/baek-study/wed_py25/blob/main/source/week9_mju.ipynb)
 
 <ul>
   <li> <b>제어키워드</b> 제어조건 <b>:</b>  &ensp;&nbsp; #헤더<br>
@@ -278,7 +278,7 @@
   </li>
 </ul>
 
-### [for 문 - 횟수 반복]()
+### [for 문 - 횟수 반복](https://github.com/baek-study/wed_py25/blob/main/source/week9_mju.ipynb)
 <ul>
   <li><b>for</b> ch <b> in 군집(반복 가능한 객체) : </b> <br>
   &ensp;&ensp;문장</li>
@@ -293,7 +293,7 @@
   - range(0, 5, 1)&ensp; # 0, 1, 2, 3, 4 </li>
 </ul>
 
-### [while 문 - 조건 반복]()
+### [while 문 - 조건 반복](https://github.com/baek-study/wed_py25/blob/main/source/week9_mju.ipynb)
 <ul>
   <li>조건 반복 1 : start, 반복조건(끝), step<br>
   count = 0 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;# start<br>
@@ -310,7 +310,7 @@
   
 <br>
 
-## [10주차 강의&nbsp;-&nbsp;반복문2]()
+## [10주차 강의&nbsp;-&nbsp;반복문2](https://github.com/baek-study/wed_py25/blob/main/source/week10_mju.ipynb)
 
 ### [중첩 for]()
 <ul>
@@ -320,7 +320,7 @@
 </li>
 </ul>
 
-### [무한 루프]()
+### [무한 루프](https://github.com/baek-study/wed_py25/blob/main/source/week10_mju.ipynb)
 <ul>
   <li> <b>while True :</b> #  무한 루프<br>
   &nbsp; &nbsp; 문장들<br>
@@ -329,7 +329,7 @@
 </li>
 </ul>
 
-### [보조제어 break, continue]() 
+### [보조제어 break, continue](https://github.com/baek-study/wed_py25/blob/main/source/week10_mju.ipynb) 
 <ul>
 <li> break : 반복문 탈출 </li>
 <li>continue : 반복 다시 시작 </li>
