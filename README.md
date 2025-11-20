@@ -8,8 +8,8 @@
 ### [키워드 인수&디폴트 인수&가변 인수 ](https://github.com/baek-study/wed_py25/blob/main/source/week12_mju.ipynb)
 <ul>
 <li>  위치 인수 : 순서대로 값을 전달 </li>  
-<li> 기본값 인수 : 함수 정의시 기본값(디폴트값)이 설정됨</li>
-<li> 키워드 인수 : 함수 호출시 '키워드 = 값'로 호출 </li>
+<li> 기본값 인수 : 함수 정의시 기본값이 설정</li>
+<li> 키워드 인수 : 함수 호출시 '키워드 = 값' </li>
 <li> 가변 인수 : 인수의 갯수가 정해지지 않음</li>
 </li>
 </ul>
@@ -29,14 +29,15 @@
 <ul>
 <li> 연관된 함수와 변수를 모아 놓은 파일 </li>
 <li> 모듈 가져오는 방법<br>
-- <b>import</b> myModule  &ensp;&ensp;# 기본 방법 <br>
-- <b>import</b> myModule <b>as</b> 별명  &ensp;&ensp;# 별명(alias)지정   <br>
-- <b>from</b> myModule <b>import</b> myFunc &ensp;&ensp; # 특정요소만 <br>
-- <b>from</b> myModule <b>import *</b>  &ensp;&ensp; # 전부가져오기 <br>
+- <b>import</b> random  <br>
+- <b>import</b> random <b>as</b> rd    <br>
+- <b>from</b> random <b>import</b> randint  <br>
+- <b>from</b> random <b>import</b> randint <b>as</b> rdi <br>
+- <b>from</b> random <b>import *</b>   <br>
 <li> 모듈 종류 <br>
 - 사용자 정의 :직접 작성, .py로 저장<br>
 - 표준 모듈 :파이썬 기본 제공 ex)  random <br>
-- 외부 모듈 : 설치 필요, pip install <br>
+- 외부 모듈 : 설치 필요. pip install <br>
 </ul>
 <br>
 
