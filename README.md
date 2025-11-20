@@ -18,12 +18,12 @@
 <ul>
   <li> 매개변수로 리스트 :  </li>
   def func1(para_list) <br>
-   &nbsp; print(para_list)  
+   &nbsp; print(para_list)  <br>
   func1(nums)  # nums와para_list는 동일
   <li>리턴형으로 리스트 :</li>
    def func2():<br>
-   &nbsp; inner_list = [1,2,3,4]
-  &nbsp; return inner_list
+   &nbsp; inner_list = [1,2,3,4]<br>
+  &nbsp; return inner_list<br>
   value = func2() # value와 inner_list는 동일
 </ul>
 
