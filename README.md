@@ -21,7 +21,7 @@
   - 매개변수와 호출시 인수리스트는 동일
   <li>리턴형으로 리스트 :</li>
   - lst = create_list() <br>
-  - 함수에서 리턴된 리스트와 결과변수 리스트는 동일
+  - 함수 내 리턴 리스트와 결과변수 리스트는 동일
 </ul>
 
 ### [지역변수vs전역변수](https://github.com/baek-study/wed_py25/blob/main/source/week12_mju.ipynb)
