@@ -3,7 +3,7 @@
 
 <hr size = "10px", width ="500px">
 
-## [12주차 강의&nbsp;-&nbsp;함수와 모듈]()
+## [12주차 강의&nbsp;-&nbsp;함수와 모듈](https://github.com/baek-study/wed_py25/blob/main/source/week12_mju.ipynb)
 
 ### [인수유형 ](https://github.com/baek-study/wed_py25/blob/main/source/week12_mju.ipynb)
 <ul>
