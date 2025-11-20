@@ -17,8 +17,10 @@
 ### [함수와 리스트 ](https://github.com/baek-study/wed_py25/blob/main/source/week12_mju.ipynb)
 <ul>
   <li> 매개변수로 리스트 :  </li>
+  - def func1(para_list) :
   - 매개변수와 호출시 인수리스트는 동일
   <li>리턴형으로 리스트 :</li>
+  - lst = create_list() 
   - 함수에서 리턴된 리스트와 결과변수 리스트는 동일
 </ul>
 
