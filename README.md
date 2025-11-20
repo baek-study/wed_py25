@@ -46,7 +46,7 @@
 - <b>from</b> random <b>import *</b>   <br>
 <li> 모듈 종류 <br>
 - 사용자 정의, 표준 모듈, 외부 모듈 <br>
-- 외부 모듈 : 설치 필요. pip install <br>
+- 사용자 정의 : 직접만든 파일 ex) calc_area.py
 </ul>
 <br>
 
