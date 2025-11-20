@@ -5,13 +5,26 @@
 
 ## [12주차 강의&nbsp;-&nbsp;함수와 모듈]()
 
-### [키워드 인수&디폴트 인수&가변 인수 ](https://github.com/baek-study/wed_py25/blob/main/source/week12_mju.ipynb)
+### [인수유형 ](https://github.com/baek-study/wed_py25/blob/main/source/week12_mju.ipynb)
 <ul>
 <li>  위치 인수 : 순서대로 값을 전달 </li>  
 <li> 기본값 인수 : 함수 정의시 기본값이 설정</li>
 <li> 키워드 인수 : 함수 호출시 '키워드 = 값' </li>
 <li> 가변 인수 : 인수의 갯수가 정해지지 않음</li>
 </li>
+</ul>
+
+### [함수와 리스트 ](https://github.com/baek-study/wed_py25/blob/main/source/week12_mju.ipynb)
+<ul>
+  <li> 매개변수로 리스트 :  </li>
+  def func1(para_list) <br>
+   &nbsp; print(para_list)  
+  func1(nums)  # nums와para_list는 동일
+  <li>리턴형으로 리스트 :</li>
+   def func2():<br>
+   &nbsp; inner_list = [1,2,3,4]
+  &nbsp; return inner_list
+  value = func2() # value와 inner_list는 동일
 </ul>
 
 ### [지역변수vs전역변수](https://github.com/baek-study/wed_py25/blob/main/source/week12_mju.ipynb)
