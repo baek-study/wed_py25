@@ -17,14 +17,9 @@
 ### [함수와 리스트 ](https://github.com/baek-study/wed_py25/blob/main/source/week12_mju.ipynb)
 <ul>
   <li> 매개변수로 리스트 :  </li>
-  def func1(para_list) :  <br>
-   &nbsp; print(para_list)  <br>
-  func1(nums)  # nums와para_list는 동일
+  - 매개변수와 호출시 인수리스트는 동일
   <li>리턴형으로 리스트 :</li>
-   def func2():<br>
-   &nbsp; inner_list = [1,2,3,4]<br>
-  &nbsp; return inner_list<br>
-  value = func2() # value와 inner_list는 동일
+  - 함수에서 리턴된 리스트와 결과변수 리스트는 동일
 </ul>
 
 ### [지역변수vs전역변수](https://github.com/baek-study/wed_py25/blob/main/source/week12_mju.ipynb)
