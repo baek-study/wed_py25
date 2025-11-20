@@ -46,12 +46,9 @@
 - <b>from</b> random <b>import *</b>   <br>
 <li> 모듈 종류 <br>
 - 사용자 정의, 표준 모듈, 외부 모듈 <br>
-- 사용자 정의 : 직접만든 파일 ex) calc_area.py
+- 사용자 정의 : 직접만든 파일 <br> ex) calc_area.py
 </ul>
 <br>
-
-
-
 
 
 <br>
