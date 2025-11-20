@@ -27,7 +27,7 @@
 
 ### [모듈(module)](https://github.com/baek-study/wed_py25/blob/main/source/week12_mju.ipynb)
 <ul>
-<li> 연관된 함수와 변수를 모아 놓은 파일 </li>
+<li> 연관된 함수와 변수를 모아 놓은 파일(.py) </li>
 <li> 모듈 가져오는 방법<br>
 - <b>import</b> random  <br>
 - <b>import</b> random <b>as</b> rd    <br>
@@ -35,8 +35,7 @@
 - <b>from</b> random <b>import</b> randint <b>as</b> rdi <br>
 - <b>from</b> random <b>import *</b>   <br>
 <li> 모듈 종류 <br>
-- 사용자 정의 :직접 작성, .py로 저장<br>
-- 표준 모듈 :파이썬 기본 제공 ex)  random <br>
+- 사용자 정의, 표준 모듈, 외부 모듈 <br>
 - 외부 모듈 : 설치 필요. pip install <br>
 </ul>
 <br>
