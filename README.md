@@ -3,6 +3,38 @@
 
 <hr size = "10px", width ="500px">
 
+## [13주차 강의&nbsp;-&nbsp;딕셔너리]()
+
+### [딕셔너리 기본 구조]()
+<ul>
+<li>의미: 키와 값 쌍, { } 사용, 순서 X </li>
+<li>생성: d=['a':'apple', 'b':'banana']  </li>
+<li>접근: d['a']&ensp; # 딕셔너리[키]   </li>
+<li>추가: d['g'] = 'graph'  </li>
+<li>수정: d['b'] ='blueberry' </li>  
+<li>유효성 검사 : 'a' <b>in</b> d # not in  </li>    
+
+</ul>
+
+### [딕셔너리 메소드]()
+<ul>
+<li>접근: d.get('a') </li>
+<li>삭제: value = d.pop('a)  </li>
+<li>목록: d.keys(), d.values(), d.items()  </li>
+</ul>
+
+### [딕셔너리 반복]()
+<ul>
+<li><b>for</b> key <b>in</b> d<b>:</b> #d.keys() <br>
+  &ensp;print(key, key[value])<br>
+</li>
+<li><b>for</b> key, value <b>in</b> d.items()<b>:</b>  <br>
+  &ensp;print(key, value)<br>
+</li>
+</ul>
+
+<br>
+
 ## [12주차 강의&nbsp;-&nbsp;함수와 모듈](https://github.com/baek-study/wed_py25/blob/main/source/week12_mju.ipynb)
 
 ### [인수유형 ](https://github.com/baek-study/wed_py25/blob/main/source/week12_mju.ipynb)
@@ -352,6 +384,14 @@
 <ul>
 <li> break : 반복문 탈출 </li>
 <li>continue : 반복 다시 시작 </li>
+</ul>
+
+### [리스트 함축](https://github.com/baek-study/ie_py25/blob/main/source/week10_mju.ipynb)
+<ul>
+  <li> 수식 for (변수 in 리스트) if (조건) </li>
+  list1 = [ x*x for x in range(0,10)]  # 제곱값<br>
+  list2 = [ x*x for x in range(0,10) if x%2==0] # 짝수의 제곱값 <br>
+  list3 = [ x*x if x%2==0 else 0 for x in range(0,10)] # 짝수는 제곱, 홀수는 0
 </ul>
 
 <br>
