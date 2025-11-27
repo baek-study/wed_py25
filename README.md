@@ -3,6 +3,39 @@
 
 <hr size = "10px", width ="500px">
 
+## [14주차 강의&nbsp;-&nbsp;파일&예외처리]()
+
+### [파일]()
+<ul>
+<li>파일모드: r(읽기), w(쓰기), a(추가) </li>
+<li><b>with</b> open('file_name', 'r') <b>as</b> f<b>:</b> <br>
+  &ensp; 파일 열고, 닫는 안전한 방법
+  &ensp; encoding = 'utf-8' #cp949 
+</li>  
+
+</ul>
+
+### [파일 읽기]()
+<ul>
+<li>read() : 모든 내용을 하나의 문자열로 반환 </li>
+<li>readlines() : 모든 내용을 리스트로 반환  </li>
+<li>for line in f: &ensp;# 한 줄씩 처리
+&ensp;&ensp;print(line) </li>
+</ul>
+
+### [파일쓰기]()
+<ul>
+<li>write() : 모든 내용을 하나의 문자열로 반환 </li>
+</ul>
+
+### [예외처리]()
+<ul>
+<li> try: ~  <br>
+except(오류): ~ </li>
+</ul>
+
+<br>
+
 ## [13주차 강의&nbsp;-&nbsp;딕셔너리]()
 
 ### [딕셔너리 기본 구조]()
