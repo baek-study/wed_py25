@@ -276,7 +276,7 @@ except(오류): ~ </li>
   <li> 삽입 : temps.insert(1, 100)   </li>  
   <li> 삭제 : temps.remove(100)   </li>  
   <li> 삭제 : t = temps.pop(0)   </li>  
-  <li> 검색 : temps.index(31) </li
+  <li> 검색 : temps.index(31) </li>
 </ul>
 
 ### [2차원 리스트](https://github.com/baek-study/wed_py25/blob/main/source/week5_mju.ipynb)
