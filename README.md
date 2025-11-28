@@ -36,9 +36,9 @@ except(오류): ~ </li>
 
 <br>
 
-## [13주차 강의&nbsp;-&nbsp;딕셔너리]()
+## [13주차 강의&nbsp;-&nbsp;딕셔너리](https://github.com/baek-study/wed_py25/blob/main/source/week13_mju.ipynb)
 
-### [딕셔너리 기본 구조]()
+### [딕셔너리 기본 구조](https://github.com/baek-study/wed_py25/blob/main/source/week13_mju.ipynb)
 <ul>
 <li>의미: 키와 값 쌍, { } 사용, 순서 X </li>
 <li>생성: d=['a':'apple', 'b':'banana']  </li>
@@ -49,14 +49,14 @@ except(오류): ~ </li>
 
 </ul>
 
-### [딕셔너리 메소드]()
+### [딕셔너리 메소드](https://github.com/baek-study/wed_py25/blob/main/source/week13_mju.ipynb)
 <ul>
 <li>접근: d.get('a') </li>
 <li>삭제: value = d.pop('a)  </li>
 <li>목록: d.keys(), d.values(), d.items()  </li>
 </ul>
 
-### [딕셔너리 반복]()
+### [딕셔너리 반복](https://github.com/baek-study/wed_py25/blob/main/source/week13_mju.ipynb)
 <ul>
 <li><b>for</b> key <b>in</b> d<b>:</b> #d.keys() <br>
   &ensp;print(key, key[value])<br>
