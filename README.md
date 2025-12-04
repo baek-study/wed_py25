@@ -12,20 +12,18 @@
   &ensp; 파일 열고, 닫는 안전한 방법
   &ensp; encoding = 'utf-8' #cp949 
 </li>  
-
-</ul>
-
-### [파일 읽기]()
-<ul>
-<li>read() : 모든 내용을 하나의 문자열로 반환 </li>
-<li>readlines() : 모든 내용을 리스트로 반환  </li>
-<li>for line in f: &ensp;# 한 줄씩 처리
-&ensp;&ensp;print(line) </li>
 </ul>
 
 ### [파일쓰기]()
 <ul>
 <li>write() : 모든 내용을 하나의 문자열로 반환 </li>
+<li>writelines() : 문자열 리스트를 쓰기 </li>
+</ul>
+
+### [데이터 정제]()
+<ul>
+<li>문자열.strip() : 공백문자(빈칸, \n 등) 제거 </li>
+<li>문자열.split(구분자) : 구분자로 나누기 </li>
 </ul>
 
 ### [예외처리]()
@@ -33,6 +31,8 @@
 <li> try: ~  <br>
 except(오류): ~ </li>
 </ul>
+
+<br>
 
 <br>
 
